@@ -1,36 +1,39 @@
-*{
+* {
 	margin:0;
 	padding:0;
 	}
-body{
+body {
 	width:100%;
 	font-family: Arial, sans-serif;
 	}
-header{
+header {
 	padding:30px;
 	background:#F1F1F1;
 	}
-h1{
+h2 {
 	margin:20px 0 20px 0;
 	}
-main>p{
+aside>p {
 	line-height:43px;
 	}
-main{
+aside {
 	width:20%;
     float:left;
     margin:1% 1%;	
 	}
-img{
+li {
+    margin-top: 10%;
+}
+img {
 	width:100%;
 	margin:2% 0;
 	}
-aside{
+main {
 	width:50%;
     float:left;
     margin:1% 1%;
 	}
-section{
+.left {
 	background:#CDF0F6;
 	width:22%;
     float:left;
@@ -38,8 +41,8 @@ section{
     margin:2% 0 1% 1%;
 	}
 @media all and (max-width:600px){
-	main, aside, section{
-		width:100%;
+	main, aside {
+		width:96%;
 		float:none;
 		padding:1% 1% 1% 1%;
 	}
